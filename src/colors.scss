@@ -1,2 +1,49 @@
 @import 'variables';
 
+.bg-valex-highlight-blue{
+  background-color: lighten($color1-valex, 20%);
+}
+.bg-valex-light-blue{
+  background-color: $color1-valex;
+}
+.bg-valex-blue{
+  background-color: $color2-valex;
+}
+.bg-valex-light-purple{
+  background-color: $color4-valex;
+}
+.bg-valex-purple{
+  background-color: $color3-valex;
+}
+.bg-valex-orange{
+  background-color: $color5-valex;
+}
+.bg-valex--blue{
+  background-color: lighten($color1-valex, 20%);
+}
+.valex-highlight-blue{
+  color: lighten($color1-valex, 20%);
+}
+.valex-light-blue{
+  color: $color1-valex;
+}
+.valex-blue{
+  color: $color2-valex;
+}
+.valex-light-purple{
+  color: $color4-valex;
+}
+.valex-purple{
+  color: $color3-valex;
+}
+.valex-orange{
+  color: $color5-valex;
+}
+
+.white{
+  color: white;
+}
+
+.bg-white{
+  background-color: white;
+}
