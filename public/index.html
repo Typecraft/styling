@@ -9,35 +9,56 @@
 
   <!-- Css -->
   <link rel="stylesheet" href="typecraft.css"/>
+  <style>
+    main{
+      width: 1200px;
+      margin: 0 auto;
+    }
+    body{
+      background:  #dfdfdf;
+    }
+  </style>
 </head>
 <body>
   <main>
   <!-- Typography -->
   <div class="box-shadow container-rounded">
-      <h1>Header 1 (H1)</h1>
-      <h2>Header 2 (H2)</h2>
-      <h4>Header 4 (H4)</h4>
-      <h5 class="semibold">Header 5 Semibold (H5)</h5>
-      <h5>Header 5 (H5)</h5>
-      <h6>Header 6 (H6)</h6>
-      <h6 class="underline">Header 6 Underline (H6)</h6>
-      <br><br>
+      <div class="card mt-50">
+        <h2>Headers</h2>
+        <h1>Header 1 (H1)</h1>
+        <h1 class="light">Header 1 Light</h1>
+        <h1 class="very-light">Header 1 Very Light</h1>
+        <h2>Header 2 (H2)</h2>
+        <h4>Header 4 (H4)</h4>
+        <h5>Header 5 (H5)</h5>
+        <h6>Header 6 (H6)</h6>
+      </div>
+      <div class="card mt-20">
+        <h2>Navigation</h2>
+        <h5 class="semibold">Navigation header</h5>
+        <h5 class="navigation" id="active">Navigation item active</h5>
+        <h5 class="navigation">Navigation item header</h5>
+        <br><br>
+        <h5 class="pointer">Table item</h5>
+        <h5 class="pointer selected">Table item selected</h5>
+      </div>
 
-      <h5 class="semibold">Navigation header</h5>
-      <h5 class="navigation" id="active">Navigation item active</h5>
-      <h5 class="navigation">Navigation item header</h5>
-      <br><br>
-      <h5 class="pointer">Table item</h5>
-      <h5 class="pointer selected">Table item selected</h5>
+      <div class="card mt-20">
+        <h2>Paragraphs</h2>
+        <p>Paragraph</p>
+        <br><br>
+      </div>
 
-      <p>Paragraph</p>
-      <br><br>
-
-      <a class="number-badge glow-red" data-badge="10"></a>
-      <br><br>
-      <a class="number-badge glow-blue" data-badge="11"></a>
-      <br><br>
-      <a class="number-badge glow-green" data-badge="12"></a>
+      <div class="card mt-20">
+        <h2>Badges</h2>
+        <a class="badge badge-default" data-badge="10">12 new</a>
+        <br>
+        <a class="badge valex-highlight-blue bg-valex-blue">10 weak highlight</a>
+        <br>
+        <a class="badge white bg-valex-orange">Tormod</a>
+        <br>
+        <a class="badge glow-green">Moderator</a>
+      </div>
 
     </div>
   </main>
