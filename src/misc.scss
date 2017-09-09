@@ -1,0 +1,16 @@
+@import 'variables.scss';
+
+.badge{
+  position: relative;
+  font-size: .7em;
+  text-align: center;
+  line-height: 18px;
+  border-radius: 5px;
+  padding: 0.25em 0.5em;
+  box-sizing: border-box;
+}
+
+.badge.badge-default{
+  color: white;
+  background-color: gray;
+}
