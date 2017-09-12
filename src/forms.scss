@@ -1,0 +1,81 @@
+@import 'variables.scss';
+
+.valex-form-control .form-group{
+  position: relative;
+  margin-bottom: 0.5em;
+}
+
+.valex-form-control.form-flex .form-group{
+  display: flex;
+}
+
+.valex-form-control input{
+  outline: none;
+  border: 1px solid $color2-valex;
+  padding: 0.5em 1em 0.5em 1.95em;
+  border-radius: 4px;
+  width: 250px;
+  box-sizing: border-box;
+}
+
+.valex-form-control label{
+  display: block;
+  wrap: wrap;
+  color: $color1-valex;
+}
+
+.valex-form-control .form-icon {
+  position: absolute;
+  left: 0.4em;
+  color: $color1-valex;
+}
+
+.valex-form-control .form-icon > * {
+  position: absolute;
+  top: 4px;
+}
+
+.valex-form-control.form-inline{
+  vertical-align: top;
+}
+
+.valex-form-control.form-inline label,
+.valex-form-control.form-inline input{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.valex-form-control.form-inline label{
+  display: inline-block;
+  width: 120px;
+}
+
+.valex-form-control.form-inline label + .form-icon{
+  left: calc(120px + 0.7em);
+}
+
+
+.valex-form-control button{
+  background-color: $color2-valex;
+  display: inline-block;
+  width: 250px;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  border: none;
+  color: lighten($color2-valex, 40%);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.valex-form-control button.block{
+  width: 100%;
+}
+
+.valex-form-control.form-colors-inverse label{
+  color: lighten($color1-valex, 20%);
+}
+
+.valex-form-control.form-colors-inverse button{
+  background-color: lighten($color1-valex, 10%);
+  color: lighten($color1-valex, 50%);
+}
