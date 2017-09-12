@@ -154,12 +154,12 @@
 }
 
 .login-form-control.form-colors-inverse label{
-  color: lighten($login-light-blue, 10%);
+  color: lighten($login-deep-blue, 30%);
 }
 
 .login-form-control.form-colors-inverse button{
-  background-color: lighten($login-light-blue, 10%);
-  color: lighten($login-light-blue, 50%);
+  background-color: lighten($login-deep-blue, 20%);
+  color: lighten($login-deep-blue, 60%);
 }
 
 // Brown login
