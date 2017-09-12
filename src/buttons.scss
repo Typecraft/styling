@@ -1,0 +1,44 @@
+@import 'variables.scss';
+
+button, .btn{
+  display: inline-block;
+  outline: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  user-select: none;
+  text-align: center;
+
+  &:active{
+    transform: scale(1.02, 1.02);
+  }
+
+  &.btn-no-active:active{
+    transform: none !important;
+  }
+
+  &.btn-default{
+    background-color: $color-gray;
+    color: $color-very-light-gray;
+  }
+
+  &.btn-small{
+   min-width: 100px;
+   font-size: 12px;
+  }
+
+  &.btn-medium{
+    min-width: 150px;
+    font-size: 16px;
+  }
+
+  &.btn-large{
+    min-width: 225px;
+    font-size: 18px;
+  }
+
+  &.block, &.btn-block{
+    display: block;
+  }
+}
