@@ -1733,3 +1733,92 @@ h1, h1, h2, h3, h4, h5, h6 {
 .valex-form-control.form-colors-inverse button {
   background-color: #617cb6;
   color: #edf0f6; }
+
+.login-form-control .form-group {
+  position: relative;
+  margin-bottom: 0.5em; }
+
+.login-form-control.form-flex .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.login-form-control input {
+  outline: none;
+  border: 1px solid #233363;
+  padding: 0.5em 1em 0.5em 1.95em;
+  border-radius: 4px;
+  width: 250px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.login-form-control label {
+  display: block;
+  wrap: wrap;
+  color: #3e5aae; }
+
+.login-form-control .form-icon {
+  position: absolute;
+  left: 0.4em;
+  color: #3e5aae; }
+
+.login-form-control .form-icon > * {
+  position: absolute;
+  top: 4px; }
+
+.login-form-control.form-inline {
+  vertical-align: top; }
+
+.login-form-control.form-inline label,
+.login-form-control.form-inline input {
+  display: inline-block;
+  vertical-align: top; }
+
+.login-form-control.form-inline label {
+  display: inline-block;
+  width: 120px; }
+
+.login-form-control.form-inline label + .form-icon {
+  left: calc(120px + 0.7em); }
+
+.login-form-control button {
+  background-color: #233363;
+  display: inline-block;
+  width: 250px;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  border: none;
+  color: #8094d2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer; }
+
+.login-form-control button.block {
+  width: 100%; }
+
+.login-form-control.form-colors-inverse label {
+  color: #29a2bd; }
+
+.login-form-control.form-colors-inverse button {
+  background-color: #29a2bd;
+  color: #c1e8f1; }
+
+.login-form-control.form-brown input {
+  border: 1px solid #4d4730; }
+
+.login-form-control.form-brown label {
+  color: #8c8157; }
+
+.login-form-control.form-brown .form-icon {
+  color: #8c8157; }
+
+.login-form-control.form-brown button {
+  background-color: #4d4730;
+  color: #b9b190; }
+
+.login-form-control.form-brown.form-colors-inverse label {
+  color: #a69b70; }
+
+.login-form-control.form-brown.form-colors-inverse button {
+  background-color: #8c8157;
+  color: #e1ddce; }
