@@ -66,6 +66,68 @@
 .valex-orange{
   color: $color5-valex;
 }
+.login-deep-blue{
+  color: $login-deep-blue;
+}
+.login-light-blue{
+  color: $login-light-blue;
+}
+.login-teal{
+  color: $login-teal;
+}
+.login-green{
+  color: $login-green;
+}
+.login-brown{
+  color: $login-brown;
+}
+.login-deep-blue-highlight{
+  color: lighten($login-deep-blue, 40%);
+}
+.login-light-blue-highlight{
+  color: lighten($login-light-blue, 40%);
+}
+.login-teal-highlight{
+  color: lighten($login-teal, 40%);
+}
+.login-green-highlight{
+  color: lighten($login-green, 40%);
+}
+.login-brown-highlight{
+  color: lighten($login-brown, 40%);
+}
+
+.bg-login-deep-blue{
+  background-color: $login-deep-blue;
+}
+.bg-login-light-blue{
+  background-color: $login-light-blue;
+}
+.bg-login-teal{
+  background-color: $login-teal;
+}
+.bg-login-green{
+  background-color: $login-green;
+}
+.bg-login-brown{
+  background-color: $login-brown;
+}
+
+.bg-login-deep-blue-highlight{
+  background-color: lighten($login-deep-blue, 40%);
+}
+.bg-login-light-blue-highlight{
+  background-color: lighten($login-light-blue, 40%);
+}
+.bg-login-teal-highlight{
+  background-color: lighten($login-teal, 40%);
+}
+.bg-login-green-highlight{
+  background-color: lighten($login-green, 40%);
+}
+.bg-login-brown-highlight{
+  background-color: lighten($login-brown, 40%);
+}
 
 .white{
   color: white;

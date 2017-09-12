@@ -1,6 +1,6 @@
 /* Coolors Exported Palette - coolors.co/48639c-4c4c9d-712f79-976391-f7996e */
-/* HSL */
-/* RGB */
+/* Valex */
+/* Login */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans:200,300,400");
 html {
   margin: 0;
@@ -66,8 +66,8 @@ h1, h1, h2, h3, h4, h5, h6 {
   font-size: 72px; }
 
 /* Coolors Exported Palette - coolors.co/48639c-4c4c9d-712f79-976391-f7996e */
-/* HSL */
-/* RGB */
+/* Valex */
+/* Login */
 .bg-valex-highlight-blue {
   background-color: #cad3e6; }
 
@@ -133,6 +133,66 @@ h1, h1, h2, h3, h4, h5, h6 {
 
 .valex-orange {
   color: #f7996e; }
+
+.login-deep-blue {
+  color: #233363; }
+
+.login-light-blue {
+  color: #207e93; }
+
+.login-teal {
+  color: #498c8a; }
+
+.login-green {
+  color: #4b6858; }
+
+.login-brown {
+  color: #4d4730; }
+
+.login-deep-blue-highlight {
+  color: #8094d2; }
+
+.login-light-blue-highlight {
+  color: #97d9e8; }
+
+.login-teal-highlight {
+  color: #c2dfde; }
+
+.login-green-highlight {
+  color: #b5cabe; }
+
+.login-brown-highlight {
+  color: #b9b190; }
+
+.bg-login-deep-blue {
+  background-color: #233363; }
+
+.bg-login-light-blue {
+  background-color: #207e93; }
+
+.bg-login-teal {
+  background-color: #498c8a; }
+
+.bg-login-green {
+  background-color: #4b6858; }
+
+.bg-login-brown {
+  background-color: #4d4730; }
+
+.bg-login-deep-blue-highlight {
+  background-color: #8094d2; }
+
+.bg-login-light-blue-highlight {
+  background-color: #97d9e8; }
+
+.bg-login-teal-highlight {
+  background-color: #c2dfde; }
+
+.bg-login-green-highlight {
+  background-color: #b5cabe; }
+
+.bg-login-brown-highlight {
+  background-color: #b9b190; }
 
 .white {
   color: white; }
@@ -231,8 +291,8 @@ h1, h1, h2, h3, h4, h5, h6 {
   background-color: #282828; }
 
 /* Coolors Exported Palette - coolors.co/48639c-4c4c9d-712f79-976391-f7996e */
-/* HSL */
-/* RGB */
+/* Valex */
+/* Login */
 .badge {
   position: relative;
   font-size: .7em;
@@ -1603,8 +1663,8 @@ h1, h1, h2, h3, h4, h5, h6 {
   padding: 0.25em 0.5em; }
 
 /* Coolors Exported Palette - coolors.co/48639c-4c4c9d-712f79-976391-f7996e */
-/* HSL */
-/* RGB */
+/* Valex */
+/* Login */
 .valex-form-control .form-group {
   position: relative;
   margin-bottom: 0.5em; }
