@@ -26,4 +26,75 @@
   .mb-neg-#{$i}{
     margin-bottom: 0px - $i;
   }
+  .p-#{$i}{
+    padding: 0px + $i;
+  }
+  .pt-#{$i}{
+    padding-top: 0px + $i;
+  }
+  .pr-#{$i}{
+    padding-right: 0px + $i;
+  }
+  .pl-#{$i}{
+    padding-left: 0px + $i;
+  }
+  .pb-#{$i}{
+    padding-bottom: 0px + $i;
+  }
+  .pt-neg-#{$i}{
+    padding-top: 0px - $i;
+  }
+  .pr-neg-#{$i}{
+    padding-right: 0px - $i;
+  }
+  .pl-neg-#{$i}{
+    padding-left: 0px - $i;
+  }
+  .pb-neg-#{$i}{
+    padding-bottom: 0px - $i;
+  }
+}
+
+.left{
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+}
+
+.right{
+  text-align: right;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-center{
+  float: center;
+}
+
+.float-right{
+  float: right;
+}
+
+.flex-hor-center{
+  justify-content: center;
+}
+
+.flex-ver-center{
+  align-items: center;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-col{
+  flex-direction: column;
 }
