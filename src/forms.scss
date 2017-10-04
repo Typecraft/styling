@@ -1,190 +1,205 @@
 @import 'variables.scss';
 
-.valex-form-control .form-group{
-  position: relative;
-  margin-bottom: 0.5em;
-}
+.valex-form-control{
 
-.valex-form-control.form-flex .form-group{
-  display: flex;
-}
+  & .form-group{
+    position: relative;
+    margin-bottom: 0.5em;
+  }
 
-.valex-form-control input{
-  outline: none;
-  border: 1px solid $color2-valex;
-  padding: 0.5em 1em 0.5em 1.95em;
-  border-radius: 4px;
-  width: 250px;
-  box-sizing: border-box;
-}
+  &.form-flex .form-group{
+    display: flex;
+  }
 
-.valex-form-control label{
-  display: block;
-  wrap: wrap;
-  color: $color1-valex;
-}
+  & input{
+    outline: none;
+    border: 1px solid $color2-valex;
+    padding: 0.5em 1em 0.5em 0.75em;
+    border-radius: 4px;
+    width: 250px;
+    box-sizing: border-box;
+  }
 
-.valex-form-control .form-icon {
-  position: absolute;
-  left: 0.4em;
-  color: $color1-valex;
-}
+  & .form-icon + input{
+    padding-left: 1.95em;
+  }
 
-.valex-form-control .form-icon > * {
-  position: absolute;
-  top: 4px;
-}
+  & label{
+    display: block;
+    wrap: wrap;
+    color: $color1-valex;
+  }
 
-.valex-form-control.form-inline{
-  vertical-align: top;
-}
+  & .form-icon {
+    position: absolute;
+    left: 0.4em;
+    color: $color1-valex;
+  }
 
-.valex-form-control.form-inline label,
-.valex-form-control.form-inline input{
-  display: inline-block;
-  vertical-align: top;
-}
+  & .form-icon > * {
+    position: absolute;
+    top: 4px;
+  }
 
-.valex-form-control.form-inline label{
-  display: inline-block;
-  width: 120px;
-}
+  &.form-inline{
+    vertical-align: top;
+  }
 
-.valex-form-control.form-inline label + .form-icon{
-  left: calc(120px + 0.7em);
-}
+  &.form-inline label,
+  &.form-inline input{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  &.form-inline label{
+    display: inline-block;
+    width: 120px;
+  }
+
+  &.form-inline label + .form-icon{
+    left: calc(120px + 0.7em);
+  }
 
 
-.valex-form-control button{
-  background-color: $color2-valex;
-  display: inline-block;
-  width: 250px;
-  padding: 0.5em 1em;
-  border-radius: 4px;
-  border: none;
-  color: lighten($color2-valex, 40%);
-  box-sizing: border-box;
-  cursor: pointer;
-}
+  & button{
+    background-color: $color2-valex;
+    display: inline-block;
+    width: 250px;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    border: none;
+    color: lighten($color2-valex, 40%);
+    box-sizing: border-box;
+    cursor: pointer;
+  }
 
-.valex-form-control button.block{
-  width: 100%;
-}
+  & button.block{
+    width: 100%;
+  }
 
-.valex-form-control.form-colors-inverse label{
-  color: lighten($color1-valex, 20%);
-}
+  &.form-colors-inverse label{
+    color: lighten($color1-valex, 20%);
+  }
 
-.valex-form-control.form-colors-inverse button{
-  background-color: lighten($color1-valex, 10%);
-  color: lighten($color1-valex, 50%);
+  &.form-colors-inverse button{
+    background-color: lighten($color1-valex, 10%);
+    color: lighten($color1-valex, 50%);
+  }
 }
 
 // Login
 
-.login-form-control .form-group{
-  position: relative;
-  margin-bottom: 0.5em;
-}
+.login-form-control{
 
-.login-form-control.form-flex .form-group{
-  display: flex;
-}
+  & .form-group{
+    position: relative;
+    margin-bottom: 0.5em;
+  }
 
-.login-form-control input{
-  outline: none;
-  border: 1px solid $login-deep-blue;
-  padding: 0.5em 1em 0.5em 1.95em;
-  border-radius: 4px;
-  width: 250px;
-  box-sizing: border-box;
-}
+  &.form-flex .form-group{
+    display: flex;
+  }
 
-.login-form-control label{
-  display: block;
-  wrap: wrap;
-  color: lighten($login-deep-blue, 20%);
-}
+  & input{
+    outline: none;
+    border: 1px solid $login-deep-blue;
+    padding: 0.5em 1em 0.5em 0.75em;
+    border-radius: 4px;
+    width: 250px;
+    box-sizing: border-box;
+  }
 
-.login-form-control .form-icon {
-  position: absolute;
-  left: 0.4em;
-  color: lighten($login-deep-blue, 20%);
-}
+  & .form-icon + input{
+    padding-left: 1.95em;
+  }
 
-.login-form-control .form-icon > * {
-  position: absolute;
-  top: 4px;
-}
+  & label{
+    display: block;
+    wrap: wrap;
+    color: lighten($login-deep-blue, 20%);
+  }
 
-.login-form-control.form-inline{
-  vertical-align: top;
-}
+  & .form-icon {
+    position: absolute;
+    left: 0.4em;
+    color: lighten($login-deep-blue, 20%);
+  }
 
-.login-form-control.form-inline label,
-.login-form-control.form-inline input{
-  display: inline-block;
-  vertical-align: top;
-}
+  & .form-icon > * {
+    position: absolute;
+    top: 4px;
+  }
 
-.login-form-control.form-inline label{
-  display: inline-block;
-  width: 120px;
-}
+  &.form-inline{
+    vertical-align: top;
+  }
 
-.login-form-control.form-inline label + .form-icon{
-  left: calc(120px + 0.7em);
-}
+  &.form-inline label,
+  &.form-inline input{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  &.form-inline label{
+    display: inline-block;
+    width: 120px;
+  }
+
+  &.form-inline label + .form-icon{
+    left: calc(120px + 0.7em);
+  }
 
 
-.login-form-control button{
-  background-color: $login-deep-blue;
-  display: inline-block;
-  width: 250px;
-  padding: 0.5em 1em;
-  border-radius: 4px;
-  border: none;
-  color: lighten($login-deep-blue, 40%);
-  box-sizing: border-box;
-  cursor: pointer;
-}
+  & button{
+    background-color: $login-deep-blue;
+    display: inline-block;
+    width: 250px;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    border: none;
+    color: lighten($login-deep-blue, 40%);
+    box-sizing: border-box;
+    cursor: pointer;
+  }
 
-.login-form-control button.block{
-  width: 100%;
-}
+  & button.block{
+    width: 100%;
+  }
 
-.login-form-control.form-colors-inverse label{
-  color: lighten($login-deep-blue, 30%);
-}
+  &.form-colors-inverse label{
+    color: lighten($login-deep-blue, 30%);
+  }
 
-.login-form-control.form-colors-inverse button{
-  background-color: lighten($login-deep-blue, 20%);
-  color: lighten($login-deep-blue, 60%);
-}
+  &.form-colors-inverse button{
+    background-color: lighten($login-deep-blue, 20%);
+    color: lighten($login-deep-blue, 60%);
+  }
 
 // Brown login
-.login-form-control.form-brown input{
+&.form-brown input{
   border: 1px solid $login-brown;
 }
 
-.login-form-control.form-brown label{
+&.form-brown label{
   color: lighten($login-brown, 20%);
 }
 
-.login-form-control.form-brown .form-icon {
+&.form-brown .form-icon {
   color: lighten($login-brown, 20%);
 }
 
-.login-form-control.form-brown button{
+&.form-brown button{
   background-color: $login-brown;
   color: lighten($login-brown, 40%);
 }
 
-.login-form-control.form-brown.form-colors-inverse label{
+&.form-brown.form-colors-inverse label{
   color: lighten($login-brown, 30%);
 }
 
-.login-form-control.form-brown.form-colors-inverse button{
+&.form-brown.form-colors-inverse button{
   background-color: lighten($login-brown, 20%);
   color: lighten($login-brown, 60%);
+}
+
 }
