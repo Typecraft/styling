@@ -9,6 +9,7 @@ button, .btn{
   border: none;
   user-select: none;
   text-align: center;
+  text-decoration: none;
 
   &:active{
     transform: scale(1.02, 1.02);
